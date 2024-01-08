@@ -14599,7 +14599,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </li>
 <li><p>Fase de modelado: Naive Bayes</p>
 </li>
-<li><p>Comparacion de modelos</p>
+<li><p><strong>Comparacion de modelos</strong></p>
 </li>
 <li><p><strong>Fase de predicción de nuevos samples (Red Neuronal y Naive Bayes)</strong></p>
 </li>
@@ -14690,6 +14690,55 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Fase-4.-Comparaci%C3%B3n-de-modelos">Fase 4. Comparaci&#243;n de modelos<a class="anchor-link" href="#Fase-4.-Comparaci%C3%B3n-de-modelos">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Tabla-1.-Comparacion-de-modelos;-Red-Nuronal,-Naivey-Nayes.">Tabla 1. Comparacion de modelos; Red Nuronal, Naivey Nayes.<a class="anchor-link" href="#Tabla-1.-Comparacion-de-modelos;-Red-Nuronal,-Naivey-Nayes.">&#182;</a></h3><table>
+<thead><tr>
+<th>Modelo</th>
+<th>Accuracy</th>
+<th>Precision</th>
+<th>Recall</th>
+<th>F1-Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Red Neuronal</td>
+<td>0.9723</td>
+<td>0.9260</td>
+<td>0.8378</td>
+<td>0.8797</td>
+</tr>
+<tr>
+<td>Naive Bayes</td>
+<td>0.8365</td>
+<td>0.3603</td>
+<td>0.4574</td>
+<td>0.4031</td>
+</tr>
+</tbody>
+</table>
+<p>Para el modelo de Naive Bayes se utilizó el clasificador "Gaussian"</p>
+
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14852,7 +14901,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>1/1 [==============================] - 0s 119ms/step
+<pre>1/1 [==============================] - 0s 116ms/step
 </pre>
 </div>
 </div>
@@ -14866,7 +14915,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-a16281aa-41ad-4f8b-b3d0-631a91c4a6f5" class="colab-df-container">
+  <div id="df-db97bd91-3a04-464e-89db-dda7e79f5342" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -14893,7 +14942,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000302</td>
+      <td>0.003508</td>
       <td>No Acepta</td>
       <td>99%</td>
     </tr>
@@ -14903,7 +14952,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-a16281aa-41ad-4f8b-b3d0-631a91c4a6f5')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-db97bd91-3a04-464e-89db-dda7e79f5342')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -14955,12 +15004,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
     <script>
       const buttonEl =
-        document.querySelector('#df-a16281aa-41ad-4f8b-b3d0-631a91c4a6f5 button.colab-df-convert');
+        document.querySelector('#df-db97bd91-3a04-464e-89db-dda7e79f5342 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-a16281aa-41ad-4f8b-b3d0-631a91c4a6f5');
+        const element = document.querySelector('#df-db97bd91-3a04-464e-89db-dda7e79f5342');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -15034,7 +15083,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>1/1 [==============================] - 0s 74ms/step
+<pre>1/1 [==============================] - 0s 75ms/step
 </pre>
 </div>
 </div>
@@ -15048,7 +15097,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-67d8d1d1-3794-4639-b6c3-b3259d96dcaa" class="colab-df-container">
+  <div id="df-93a27e4a-981b-46e2-a782-1b47e2d3567b" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -15075,9 +15124,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>0</th>
-      <td>1.0</td>
-      <td>Acepta</td>
-      <td>100%</td>
+      <td>3.380517e-08</td>
+      <td>No Acepta</td>
+      <td>99%</td>
     </tr>
   </tbody>
 </table>
@@ -15085,7 +15134,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-67d8d1d1-3794-4639-b6c3-b3259d96dcaa')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-93a27e4a-981b-46e2-a782-1b47e2d3567b')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -15137,12 +15186,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
     <script>
       const buttonEl =
-        document.querySelector('#df-67d8d1d1-3794-4639-b6c3-b3259d96dcaa button.colab-df-convert');
+        document.querySelector('#df-93a27e4a-981b-46e2-a782-1b47e2d3567b button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-67d8d1d1-3794-4639-b6c3-b3259d96dcaa');
+        const element = document.querySelector('#df-93a27e4a-981b-46e2-a782-1b47e2d3567b');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -15204,7 +15253,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>1/1 [==============================] - 0s 80ms/step
+<pre>1/1 [==============================] - 0s 82ms/step
 </pre>
 </div>
 </div>
@@ -15218,7 +15267,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-65c7fd69-aa02-4300-8b0d-514de363c323" class="colab-df-container">
+  <div id="df-517f5dca-3bd5-40fa-ba46-effb92ae565f" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -15245,9 +15294,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.659576</td>
+      <td>1.0</td>
       <td>Acepta</td>
-      <td>31%</td>
+      <td>100%</td>
     </tr>
   </tbody>
 </table>
@@ -15255,7 +15304,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-65c7fd69-aa02-4300-8b0d-514de363c323')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-517f5dca-3bd5-40fa-ba46-effb92ae565f')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -15307,12 +15356,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
     <script>
       const buttonEl =
-        document.querySelector('#df-65c7fd69-aa02-4300-8b0d-514de363c323 button.colab-df-convert');
+        document.querySelector('#df-517f5dca-3bd5-40fa-ba46-effb92ae565f button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-65c7fd69-aa02-4300-8b0d-514de363c323');
+        const element = document.querySelector('#df-517f5dca-3bd5-40fa-ba46-effb92ae565f');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -15439,7 +15488,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-0c7096d0-3c37-4105-b3aa-6cfc31ddecba" class="colab-df-container">
+  <div id="df-2a2f5614-1577-42c7-85e9-936609418819" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -15476,7 +15525,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-0c7096d0-3c37-4105-b3aa-6cfc31ddecba')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-2a2f5614-1577-42c7-85e9-936609418819')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -15528,12 +15577,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
     <script>
       const buttonEl =
-        document.querySelector('#df-0c7096d0-3c37-4105-b3aa-6cfc31ddecba button.colab-df-convert');
+        document.querySelector('#df-2a2f5614-1577-42c7-85e9-936609418819 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-0c7096d0-3c37-4105-b3aa-6cfc31ddecba');
+        const element = document.querySelector('#df-2a2f5614-1577-42c7-85e9-936609418819');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -15609,7 +15658,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-33cd52f1-bdb4-494a-b621-9704aa0cb9c4" class="colab-df-container">
+  <div id="df-c89725ca-7387-441c-8848-75d04128536e" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -15646,7 +15695,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-33cd52f1-bdb4-494a-b621-9704aa0cb9c4')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-c89725ca-7387-441c-8848-75d04128536e')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -15698,12 +15747,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
     <script>
       const buttonEl =
-        document.querySelector('#df-33cd52f1-bdb4-494a-b621-9704aa0cb9c4 button.colab-df-convert');
+        document.querySelector('#df-c89725ca-7387-441c-8848-75d04128536e button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-33cd52f1-bdb4-494a-b621-9704aa0cb9c4');
+        const element = document.querySelector('#df-c89725ca-7387-441c-8848-75d04128536e');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -15767,7 +15816,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-1e6b7ec2-d83c-4581-a0d3-1e7cfda9a2af" class="colab-df-container">
+  <div id="df-c6a7a71b-c5df-46d7-b155-e8a7d69c340b" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -15804,7 +15853,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="colab-df-buttons">
       
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-1e6b7ec2-d83c-4581-a0d3-1e7cfda9a2af')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-c6a7a71b-c5df-46d7-b155-e8a7d69c340b')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
       
@@ -15856,12 +15905,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
     <script>
       const buttonEl =
-        document.querySelector('#df-1e6b7ec2-d83c-4581-a0d3-1e7cfda9a2af button.colab-df-convert');
+        document.querySelector('#df-c6a7a71b-c5df-46d7-b155-e8a7d69c340b button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-1e6b7ec2-d83c-4581-a0d3-1e7cfda9a2af');
+        const element = document.querySelector('#df-c6a7a71b-c5df-46d7-b155-e8a7d69c340b');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -15891,6 +15940,36 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Conclusiones">Conclusiones<a class="anchor-link" href="#Conclusiones">&#182;</a></h2><p>Al igual que prácticas anteriores con este dataset, el mejor modelo para realizar predicciones es la Red Neuronal.</p>
+<p>Para esta práctica se utilizó el dataset completo el cual constaba con más de 45211 filas. En la fase de análisis exploratorio se encontró que la variable objetivo de este dataset presentaba más 0s que 1s, lo que indicaba un desbalance, en la fase de modelado y entrenamiento de la Red Neuronal lo primero que se trató de hacer fue aplicar las distintas técnicas para tratar el desbalance de datos, como penalización en los pesos, oversampling, subsampling y smote-tomek, pero al aplicarlos no hubo mejora en las medidas de evaluación, entonces sé probo la estrategia de <strong>validación cruzada</strong>, la cual venía bien, ya que nuestro dataset tiene varias filas, y se notó una gran mejora alcanzando medidas de evaluación bastante altas, por encima de 0.8, esta misma estrategia se utilizó para entrenar el modelo de Naive Bayes.</p>
+<p>Para el modelo de Naive Bayes se investigó varios tipos de clasificadores, como el Gaussian, Bernoulli, Multinomial, y Complement, los dos últimos modelos no servían en nuestro dataset, ya que al aplicar los transformadores se tenía números negativos (debido a la estandarización) y estos modelos no trabajan con valores negativos, por lo que solo se obtuvo resultados con Gausian y Bernoulli.</p>
+<p>Si bien al momento de hacer predicciones, el modelo de Naive Bayes presenta una certeza del 100%, este resultado no es preciso, como se puede ver en la tabla de comparación (tabla 1), esto es debido a que los clasificadores de Naive Bayes devuelven solo 0 o 1, por lo que a la hora de calcular la certeza siempre se obtiene un valor del 100%.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Referencias">Referencias<a class="anchor-link" href="#Referencias">&#182;</a></h2><p>1.9. Naive Bayes. (n.d.). Scikit-learn. <a href="https://scikit-learn.org/stable/modules/naive_bayes.html">https://scikit-learn.org/stable/modules/naive_bayes.html</a></p>
+<p>Camacho, J. A., &amp; Camacho, J. A. (2021, August 20). Clasificador Naive Bayes | JacobSoft. JacobSoft. <a href="https://www.jacobsoft.com.mx/es_mx/clasificador-naive-bayes/">https://www.jacobsoft.com.mx/es_mx/clasificador-naive-bayes/</a></p>
+<p>Na, &amp; Na. (2020b, March 3). Clasificación con datos desbalanceados | Aprende Machine Learning. Aprende Machine Learning. <a href="https://www.aprendemachinelearning.com/clasificacion-con-datos-desbalanceados/">https://www.aprendemachinelearning.com/clasificacion-con-datos-desbalanceados/</a></p>
+<p>Ortiz, I. R. H., PhD. (2023d, December 23). Despliegue de un servicio de machine learning con Flask y Django. Pruebas con Postman - GenSciNet. GenSciNet. <a href="https://genscinet.com/despliegue-servicio-machine-learning-flask-django/">https://genscinet.com/despliegue-servicio-machine-learning-flask-django/</a></p>
+
+</div>
+</div>
+</div>
 </div>
 </body>
 
